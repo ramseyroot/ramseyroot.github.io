@@ -14,6 +14,7 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaWhatsapp,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -137,6 +138,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Blogger'
+                                />
+                            </a>
+                        )}
+                        {socialsData.whatsapp && (
+                            <a
+                                href={socialsData.whatsapp}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaWhatsapp
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='WhatsApp'
                                 />
                             </a>
                         )}

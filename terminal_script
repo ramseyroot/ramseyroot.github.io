@@ -1,0 +1,6 @@
+npm run build
+npm run deploy
+
+to test app
+npm install -g serve
+serve -s build

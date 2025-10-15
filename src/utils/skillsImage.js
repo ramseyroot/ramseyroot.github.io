@@ -1,6 +1,7 @@
 import gcp from '../assets/svg/skills/gcp.svg'
 import html from '../assets/svg/skills/html.svg'
 import photoshop from '../assets/svg/skills/photoshop.svg'
+import springboot from '../assets/svg/springboot.svg.png'
 import illustrator from '../assets/svg/skills/illustrator.svg'
 import docker from '../assets/svg/skills/docker.svg'
 import adobeXd from '../assets/svg/skills/adobe-xd.svg'
@@ -227,6 +228,8 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'springboot':
+            return springboot;
         default:
             break;
     }
